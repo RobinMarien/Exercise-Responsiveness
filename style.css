@@ -2,15 +2,30 @@
     body {
         background-color: red;
     }
+
+    div {
+        width:100%;
+        display:inline-block;
+        font-size: 18px;
+    }
 }
 @media only screen and (min-width: 301px){
     body{
         background-color: green;
+    }
+    div {
+        width:40%;
+        display:inline-block;
+        font-size: 23px;
     }
 }
 
 @media only screen and (min-width: 768px){
     body{
         background-color: blue;
+    }
+    div {
+        width:30%;
+        font-size: 26px;
     }
 }
